@@ -1,0 +1,10 @@
+D:\Visual Studio 2012\Projects\Sun\Sun\bin\Debug\Sun.exe.config
+D:\Visual Studio 2012\Projects\Sun\Sun\bin\Debug\Sun.exe
+D:\Visual Studio 2012\Projects\Sun\Sun\bin\Debug\Sun.pdb
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.Form1.resources
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.Properties.Resources.resources
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.csproj.GenerateResource.Cache
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.exe
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.pdb
+D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.Form2.resources
