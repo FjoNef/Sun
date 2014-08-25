@@ -5,15 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//----------------------------------------------------------------------
+//Все формулы взяты отсюда: http://pvcdrom.pveducation.org/RU/index.html
+//----------------------------------------------------------------------
 namespace Sun
 {
     class Sun
     {
+        // Стандартный меридиан местной временной зоны
         private double LocalStandartTimeMeridian;
+        // День года по счету от 1 января
         private double DayOfYear;
+        // Эмпирическое уравнение времени для коррекции (в минутах)
         private double EquationOfTime;
+        // Временной коэффициент для поправки от долготы в этом часовом поясе
         private double TimeCoeficent;
+        // Местное солнечное время
         private double LocalSolarTime;
+        // Временной угол солнца
         private double HourAngle;
 
         private void LSTM(int dTime)
@@ -46,6 +55,7 @@ namespace Sun
             HourAngle = 15.0 * (LocalSolarTime - 12.0);
         }
 
+        // Расчет положения солнца на небе из данного меридиана (Параметры: Долгота, дата, время, разница времени со временем по Гринвичу)
         public double Calculate(decimal longitude, DateTime date, DateTime time, int dTime)
         {
             LSTM(dTime);
