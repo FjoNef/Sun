@@ -21,8 +21,9 @@ namespace Sun
         private void button1_Click(object sender, EventArgs e)
         {
             Solar = new Sun();
-            double result = Solar.Calculate(longitude.Value, date.Value, time.Value, (int)dTime.Value);
-            MessageBox.Show("Angle is: " + Math.Truncate(result) + "* " + Math.Truncate(Math.Abs((result - Math.Truncate(result)) * 60.0)) + "'", "Angle");
+            double[] result = Solar.Calculate((double)latitude.Value, (double)longitude.Value, (int)year.Value, (int)month.Value, (int)day.Value, (int)hour.Value, (int)minute.Value, (int)second.Value);
+            SunIco.Location = new Point((int)(589 + (Math.Cos((result[2]-90) * Math.PI / 180) * (result[1] * 2.6))), (int)(247 + (Math.Sin((result[2]-90) * Math.PI / 180) * (result[1] * 2.6))));
+            MessageBox.Show("Elevation is: " + result[0] + "* \nZenith Angle: " + result[1] + "* \nAzimuth :" + result[2] + "*", "Angle");
         }
     }
 }

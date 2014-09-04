@@ -7,4 +7,3 @@ D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.Properties.Resources.resour
 D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.csproj.GenerateResource.Cache
 D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.exe
 D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.pdb
-D:\Visual Studio 2012\Projects\Sun\Sun\obj\Debug\Sun.Form2.resources
