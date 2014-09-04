@@ -63,16 +63,6 @@ namespace Sun.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap G_xrjm8MVk8 {
-            get {
-                object obj = ResourceManager.GetObject("G_xrjm8MVk8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap graf {
             get {
                 object obj = ResourceManager.GetObject("graf", resourceCulture);
@@ -86,16 +76,6 @@ namespace Sun.Properties {
         internal static System.Drawing.Bitmap Solnce {
             get {
                 object obj = ResourceManager.GetObject("Solnce", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sun {
-            get {
-                object obj = ResourceManager.GetObject("Sun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
